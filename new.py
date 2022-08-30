@@ -81,7 +81,7 @@ def check_win():
         if possibility.check('X'):
             print("X won!")
             return
-            exit()
+            
         elif possibility.check('O'):
             print("O won!")
             return
